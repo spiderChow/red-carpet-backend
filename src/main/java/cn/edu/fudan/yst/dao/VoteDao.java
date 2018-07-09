@@ -36,5 +36,5 @@ public interface VoteDao extends CrudRepository<Vote, Long> {
     @Override
     <S extends Vote> List<S> save(Iterable<S> iterable);
 
-
+p
 }
